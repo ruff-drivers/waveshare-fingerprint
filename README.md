@@ -38,6 +38,7 @@ var num = fingerprint.getUserCount(function (error, count) {
     }
     if (count === 0) {
         // add the first user (namely fingerprint)
+        console.log('Add user ...');
         var id = 1;
         var privilege = 1;
         fingerprint.addUser(id, privilege, function (error) {
