@@ -88,7 +88,7 @@ function createCommands(communication) {
                 this.dataLength = parseShort(buffer, 2);
                 this.expectedLength = this.dataLength + 3;
                 this.stage = 2;
-                if (buffer.length < this.expectedLength) {
+                if (buffer.length < this.expectedLength + 8) {
                     return invalidResult;
                 }
             }
