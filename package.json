@@ -1,6 +1,6 @@
 {
     "name": "waveshare-fingerprint",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Waveshare Fingerprint Module Driver with UART interface.",
     "author": "Nanchao Inc.",
     "license": "MIT",
@@ -20,7 +20,7 @@
     ],
     "main": "src/index.js",
     "engines": {
-        "ruff": ">=1.2.0 <1.7.0"
+        "ruff": ">=1.2.0 <2.0.0"
     },
     "scripts": {
         "install-sdk": "rvm install --local",

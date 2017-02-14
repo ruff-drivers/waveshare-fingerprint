@@ -6,7 +6,7 @@ Waveshare Fingerprint Module Driver with UART interface.
 
 ## Supported Engines
 
-* Ruff: >=1.2.0 <1.7.0
+* Ruff: >=1.2.0 <2.0.0
 
 ## Supported Models
 
