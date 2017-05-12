@@ -1,6 +1,6 @@
 {
     "name": "waveshare-fingerprint",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "Waveshare Fingerprint Module Driver with UART interface.",
     "author": "Nanchao Inc.",
     "license": "MIT",
